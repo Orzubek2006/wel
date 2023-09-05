@@ -1,0 +1,1324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wel:checked ~ header .block {
+    transform: translateY(10px);
+    transition: 0.4s ease-in-out;
+}
+.wall{
+    width: 100%;
+    height: 70px;
+
+
+    .logo {
+        width: 1400px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+
+        p {
+            margin-left: -50px;
+            width: 180px;
+        }
+
+        button {
+            width: 170px;
+            height: 50px;
+            color: #fff;
+            background-color: red;
+            border-radius: 5px;
+            border: none;
+        }
+
+        input {
+            width: 500px;
+            height: 50px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+
+
+
+
+        label{
+            width: 180px;
+            height: 50px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: red;
+        }
+       
+
+
+
+
+
+        .icon_one {
+            width: 200px;
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .icon {
+                width: 50px;
+                height: 50px;
+                border-radius: 5px;
+                background: rgba(242, 245, 249, 1);
+
+            }
+        }
+
+    }
+
+
+
+    .block {
+        width: 1400px;
+        height: 600px;
+        margin: 0 auto;
+        transform: translateY(-820px);
+        background: #fff;
+        z-index: 9999;
+        position: relative;
+        animation: 0.4s ease-in-out;
+
+        .boxs {
+            width: 1400px;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+
+
+
+            .box_one {
+                width: 300px;
+                height: auto;
+                .box_on {
+                    padding: 10px;
+                    width: 300px;
+                    height: 380px;
+                    background: rgba(236, 238, 239, 1);
+                    border-radius: 10px;
+                }
+
+
+                p {
+                    padding: 5px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            .box_two {
+                width: 200px;
+                height: auto;
+                .box_tw {
+                    padding: 10px;
+                    width: 200px;
+                    height: 460px;
+                    background: rgba(236, 238, 239, 1);
+                    border-radius: 10px;
+                }
+
+
+                p {
+                    padding: 5px;
+                    gap: 10px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            .box_three {
+                .box_thre {
+                    padding: 10px;
+                    width: 200px;
+                    height: 480px;
+                    background: rgba(236, 238, 239, 1);
+                    border-radius: 10px;
+                }
+
+
+                p {
+                    padding: 5px;
+                    gap: 10px;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .p_one {
+                    display: flex;
+                    color: red;
+                    text-align: center;
+                }
+
+            }
+            .box_four{
+                img{
+                    width: 300px;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+
+
+}
+#tab_4:checked ~ .contayner .iphone .iphon_4{
+    display: block;
+}
+#tab_1:checked ~ .contayner .iphone .iphone_2 .iphon_1 label:nth-of-type(1){
+    transition: 0.4s ease-in;
+}
+#tab_2:checked ~ .contayner .iphone .iphone_2 .iphon_1 label:nth-of-type(2){
+    transition: 0.4s ease-in;
+}
+#tab_3:checked ~ .contayner .iphone .iphone_2 .iphon_1 label:nth-of-type(3){
+    transition: 0.4s ease-in;
+}
+
+#tab_1:checked ~ .contayner .iphone .iphone_2 .iphon .img_8 .img_1:nth-of-type(1){
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+#tab_2:checked ~ .contayner .iphone .iphone_2 .iphon .img_8 .img_1:nth-of-type(2){
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+#tab_3:checked ~ .contayner .iphone .iphone_2 .iphon .img_8 .img_1:nth-of-type(3){
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+
+.contayner{
+    width: 100%;
+    height: auto;
+    .iphone{
+        width: 1400px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        .iphone_2{
+            width: 700px;
+            height: auto;
+            .iphon{
+                width: 700px;
+                height: 700px;
+
+
+                .img_8{
+                    width: 600px;
+                    height: auto;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    .img_1{
+                        position: absolute;
+                        opacity: 0;
+                    }
+                }
+
+            }
+            .iphon_1{
+
+                label{
+                    cursor: pointer;
+                }
+            }
+
+            .iphon_2{
+                width: 700px;
+                height: auto;
+                .box{
+                    width: 650px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: space-around;
+                    .box_1{
+                        width: auto;
+                        height: 30px;
+                        display: flex;
+                        justify-content:  center;
+                        align-items: center;
+                        gap: 5px;
+                        border-radius: 4px;
+                        background: rgba(162, 171, 183, 0.492);
+                        .p_1{
+                            color: rgba(126, 135, 148, 1);
+                        }
+                        
+                    }
+                }
+    
+                label{
+                    width: 300px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                    color: red;
+                }
+    
+
+    
+    
+    
+            }
+    
+    
+    
+            .iphon_4{
+                width: 700px;
+                height: auto;
+                display: none;
+                .box_5{
+                    width: 700px;
+                    height: auto;
+
+                    .box_3{
+                        width: 690px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+                        p{
+                            width: 320px;
+                        }
+                        .p_1{
+                            
+                            color: rgba(126, 135, 148, 1);
+                        }
+    
+                    }
+                    .liner{
+                        width: 690px;
+                        height: 100px;
+                        padding: 10px;
+                        p{
+                            color: rgba(126, 135, 148, 1);
+                        }
+                        .liner_1{
+                            width: 690px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            position: relative;
+                            gap: 2px;
+                            .liner_2{
+                                width: 130px;
+                                height: 0;
+                                margin-top: 30px;
+                                border: 3px solid red;
+                            }
+                            .liner_3{
+                                width: 300px;
+                                height: 0;
+                                margin-top: 30px;
+                                border: 3px solid rgba(245, 150, 38, 1);
+                            }
+                            .liner_4{
+                                width: 130px;
+                                height: 0;
+                                margin-top: 30px;
+                                border: 3px solid rgba(48, 209, 112, 1);
+                            }
+                            .liner_5{
+                                width: 10px;
+                                height: 10px;
+                                position: absolute;
+                                left: 300px;
+                                top: 35px;
+                                border-radius: 100%;
+                                background: #000;
+                            }
+                            .p_3{
+                                width: 50px;
+                                height: 30px;
+                                border-radius: 5px;
+                                background: rgba(245, 150, 38, 1);
+                                color: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                top: 0;
+                                left: 280px;
+                            }
+                        }
+                    }
+                }
+            }
+            .iphon_6{
+                width: 600px;
+                height: auto;
+                padding: 10px;
+            }
+        }
+
+
+        .iphone_1{
+            width: 700px;
+            height: auto;
+            .ipho{
+                width: 690px;
+                height: auto;
+                h3{
+                    font-size: 20px;
+                }
+                .green{
+                    width: 690px;
+                    height: 40px;
+                    display: flex;
+                    gap: 30px;
+                    .gr{
+                        width: 200px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                        background: rgba(242, 245, 249, 1);
+                        color: green;
+                    }
+                    .gre{
+                        width: 300px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                        background: rgba(242, 245, 249, 1);
+                        color: rgba(126, 135, 148, 1);
+                        .img_2{
+                            display: none;
+                        }
+                    }
+                }
+
+                .liner{
+                    .boxs{
+                        .p_4{
+                            color: rgba(126, 135, 148, 1);
+                        }
+                    }
+                }
+
+                .cam{
+                    width: 690px;
+                    height: auto;
+                    .dem{
+                        width: 690px;
+                        height: 20px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .demm{
+                        width: 680px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .p_5{
+                        color: rgba(48, 209, 112, 1);
+                    }
+
+                    .sena{
+                        width: 680px;
+                        height: 70px;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        .p_6{
+                            color: rgba(126, 135, 148, 1);
+                        }
+
+                    }
+                    .line{
+                        width: 680px;
+                        height: 80px;
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+                        align-items: center;
+                        position: relative;
+                        .line_1{
+                            width: 320px;
+                            height: 0;
+                            border: 4px solid red;
+                            border-radius: 3px;
+                        }
+                        .line_2{
+                            width: 320px;
+                            height: 8px;
+                            background: green;
+                            border-radius: 3px;
+                        }
+                        .line_3{
+                            width: 10px;
+                            height: 10px;
+                            position: absolute;
+                            left: 335px;
+                            border-radius: 100%;
+                            background: #000;
+                        }
+                        .line_4{
+                            position: absolute;
+                            left: 334px;
+                            top: 15px;
+                        }
+                    }
+                }
+                .sivet{
+                    width: 690px;
+                    height: 40px;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    .col{
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 3px;
+                        background: rgba(242, 245, 249, 1);
+                    }
+                    .col:nth-of-type(2){
+                        background: rgba(255, 224, 187, 1);
+                    }
+                    .col:nth-of-type(3){
+                        background: rgba(255, 187, 187, 1);
+                    }
+                    .col:nth-of-type(4){
+                        background: rgba(108, 108, 108, 1);
+                    }
+                    .col:nth-of-type(5){
+                        background: rgba(187, 255, 226, 1);
+                    }
+                    .col:nth-of-type(6){
+                        background: rgba(187, 194, 255, 1);
+                    }
+                    .col:nth-of-type(7){
+                        background: rgba(254, 187, 255, 1);
+                    }
+                }
+
+                .pam{
+                    width: 690px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .p_7{
+                        width: 80px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 25px;
+                        border-radius: 3px;
+                        border: 1px solid rgba(236, 238, 239, 1);
+                    }
+
+                    .p_7:hover{
+                        width: 80px;
+                        height: 25px;
+                        border-radius: 3px;
+                        border: 1px solid rgba(255, 77, 77, 1);
+                    }
+                }
+                .srab{
+                    width: 500px;
+                    height: auto;
+                    display: flex;
+                    gap: 20px;
+                    .red{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 5px;
+                        background: rgba(255, 238, 238, 1);
+                        border: none;
+                    }
+                    .red:hover{
+                        background: red;
+                        color: #fff;
+                    }
+                }
+
+                .istori{
+                    width: 690px;
+                    height: auto;
+                    h3{
+                        padding: 10px;
+                    }
+                    .oy{
+                        width: 690px;
+                        height: 20px;
+                        display: flex;
+                        justify-content: space-around;
+                        .p_8{
+                            color: rgba(126, 135, 148, 1);
+                        }
+                    }
+                }
+                .stat{
+                    width: 680px;
+                    height: 200px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    .sat{
+                        width: 330px;
+                        height: auto;
+                        .sata{
+                            width: 320px;
+                            height: auto;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        .p_9{
+                            color: rgba(48, 209, 112, 1);
+                        }
+                        .p_0{
+                            color: rgba(126, 135, 148, 1);
+                        }
+                        .sat_1{
+                            width: 320px;
+                            height: 30px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            p{
+                                color: rgba(255, 77, 77, 1);
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .obzori{
+        width: 1400px;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+        .k{
+            color: rgba(255, 77, 77, 1);
+            text-decoration: none;
+            position: absolute;
+            top: 15px;
+            right: 10px;
+        }
+        .obzor{
+            width: 1370px;
+            height: 370px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px; 
+            .obzor_one{
+                width: 270px;
+                height: auto;
+                border-radius: 10px;
+                overflow: hidden;
+                background: rgba(246, 247, 250, 1);
+                img{
+                    width: 270px;
+                }
+                p{
+                    color: rgba(126, 135, 148, 1);
+                }
+                a{
+                    text-decoration: none;
+                    color: rgba(255, 77, 77, 1);
+                }
+            }
+        }
+    }
+
+    .tarif{
+        width: 1400px;
+        height: 930px;
+        margin: 0 auto;
+        position: relative;
+
+        .bell_2{
+            width: 1400px;
+            height: auto;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            .bell{
+                width: 400px;
+                height: auto;
+                padding: 10px;
+                border-radius: 10px;
+                background: rgba(246, 247, 250, 1);
+                
+                .bell_1{
+                    width: 390px;
+                    height: 60px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .bel{
+                        p{
+                            display: flex;
+                            align-items: center;
+                        }
+                        .p_11{
+                            color: rgba(126, 135, 148, 1);
+                        }
+                        
+    
+                    }
+                    .img_3{
+                        border-radius: 100%;
+                    }
+                }
+                .p_12{
+                    color: rgba(126, 135, 148, 1);
+                }
+                
+            }
+        }
+        .but{
+            width: 100px;
+            height: 40px;
+            background: rgba(242, 245, 249, 1);
+            border-radius: 5px;
+            color: rgba(255, 77, 77, 1);
+            border: none;
+            position: absolute;
+            left: 650px;
+
+        }
+    }
+}
+
+.futor{
+    width: 100%;
+    height: 300px;
+    background: rgba(246, 247, 250, 1);
+    .p_3{
+        position: absolute;
+        left: 250px;
+    }
+    .futor_one{
+        width: 1400px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        .p_two{
+            width: 300px;
+            height: auto;
+            padding: 10px;
+            .p_2{
+                color: rgba(126, 135, 148, 1);
+                padding: 10px;
+            }
+            p{
+                padding: 10px;
+            }
+            .img_img{
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.galvni{
+    display: none;
+}
+
+@media screen and (max-width:1100px){
+    .wall{
+        width: 1100px;
+        .logo{
+            width: 1050px;
+
+            .log{
+                width: 120px;
+            }
+            p{
+                width: 150px;
+
+            }
+            label{
+                width: 150px;
+                height: 40px;
+
+            }
+            input{
+                width: 200px;
+            }
+        }
+        .block{
+            width: 1100px;
+            height: auto;
+            .boxs{
+                width: 1050px;
+                height: auto;
+
+            }
+        }
+    }
+    
+    #tab_1:checked ~ .contayner .iphone .iphone_2 .iphon .iphon_1 label:nth-of-type(1){
+        transition: 0.4s ease-in;
+    }
+    #tab_2:checked ~ .contayner .iphone .iphone_2 .iphon .iphon_1 label:nth-of-type(2){
+        transition: 0.4s ease-in;
+    }
+    #tab_3:checked ~ .contayner .iphone .iphone_2 .iphon .iphon_1 label:nth-of-type(3){
+        transition: 0.4s ease-in;
+    }
+    
+    #tab_1:checked ~ .contayner .iphone .iphone_2 img:nth-of-type(1){
+        opacity: 1;
+        transition: 0.4s ease-in;
+    }
+    #tab_2:checked ~ .contayner .iphone .iphone_2 img:nth-of-type(2){
+        opacity: 1;
+        transition: 0.4s ease-in;
+    }
+    #tab_3:checked ~ .contayner .iphone .iphone_2  img:nth-of-type(3){
+        opacity: 1;
+        transition: 0.4s ease-in;
+    }
+
+
+
+    .contayner{
+        width: 1100px;
+        height: auto;
+        .iphone{
+            width: 1000px;
+            height: auto;
+            margin-left: 10px;
+            .iphone_2{
+                width: 1050px;
+                height: auto;
+                .iphon{
+                    width: 500px;
+                    height: 500px;
+                    display: flex;
+                    
+
+                    img{
+                        width: 400px;
+                        opacity: 0;
+                    }
+
+                }
+                .iphon_1{
+                    width: 480px;
+                    height: auto;
+                    display: flex;
+                    label{
+                        width: 160px;
+                        cursor: pointer;
+                        img{
+                            width: 140px;
+                        }
+                    }
+                }
+                .iphon_2{
+                    width: 400px;
+                    height: auto;
+                    h3{
+                        font-size: 15px;
+                    }
+                    .box{
+                        width: 500px;
+                        height: auto;
+
+                    }
+                }
+                .iphon_4{
+                    width: 500px;
+                    height: auto;
+                    .box_5{
+                        width: 500px;
+                        height: auto;
+                        .box_3{
+                            width: 490px;
+                        }
+                        .liner{
+                            width: 500px;
+                            height: auto;
+                            p{
+                                width: 490px;
+                            }
+
+                            .liner_1{
+                                width: 490px;
+                                height: 40px;
+                                .liner_2{
+                                    width: 80px;
+                                }
+                                .liner_3{
+                                    width: 230px;
+                                }
+                                .liner_4{
+                                    width: 120px;
+                                }
+                                .liner_5{
+                                    position: absolute;
+                                    top: 30px;
+                                    left: 170px;
+                                }
+                                .p_3{
+                                    position: absolute;
+                                    left: 150px;
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+
+                .iphon_6{
+                    width: 480px;
+                    height: auto;
+                }
+            }
+            .iphone_1{
+                width: 480px;
+                height: auto;
+                .ipho{
+                    width: 480px;
+                    height: auto;
+                    .cam{
+                        width: 480px;
+                        .demm{
+                            width: 480px;
+                        }
+                        .sena{
+                            width: 480px;
+                        }
+                        .line{
+                            width: 490px;
+                                .line_3{
+                                    position: absolute;
+                                    left: 241px;
+                                }
+                                .line_4{
+                                    position: absolute;
+                                    left: 241px;
+                                }
+                        }
+                    }
+                    .istori{
+                        width: 490px;
+                        height: auto;
+                        img{
+                            width: 490px;
+                        }
+                        .oy{
+                            width: 490px;
+                        }
+                    }
+                    .stat{
+                        width: 490px;
+                        height: auto;
+                        .sat{
+                            width: 240px;
+                            height: auto;
+                            .sata{
+                                width: 240px;
+                                height: auto;
+                            }
+                            .img_7{
+                                width: 240px;
+                            }
+                            .sat_1{
+                                width: 240px;   
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        .obzori{
+            width: 1050px;
+            height: auto;
+            .obzor{
+                width: 1000px;
+                height: auto;
+            }
+        }
+        .tarif{
+            width: 1100px;
+            height: 1100px;
+            .bell_2{
+                width: 1050px;
+                height: auto;
+                .bell{
+                    width: 330px;
+                    height: auto;
+                }
+            }
+            .but{
+                position: absolute;
+                left: 500px;
+            }
+        }
+
+    }
+
+
+    .futor{
+        width: 1100px;
+        height: 280px;
+        .futor_one{
+            width: 1100px;
+            height: auto;
+        }
+        .p_3{
+            position: absolute;
+            left: 100px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:478px){
+    .wall{
+        width: 480px;
+        height: 120px;
+        .logo{
+            width: 350px;
+            height: 100px;
+            position: relative;
+            margin-left: 5px;
+            img{
+                width: 150px;
+            }
+
+            label{
+                display: none;
+            }
+            p{
+                font-size: 17px;
+            }
+            input{
+                position: absolute;
+                top: 80px;
+                width: 350px;
+            }
+            .icon_one{
+                display: none;
+            }
+        }
+        .block{
+            width: 470px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            transform: translateX(480px);  
+
+            .boxs{
+                width: 470px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                .box_four{
+                    display: none;
+                }
+                
+            }
+        }
+    }
+
+    .contayner{
+        width: 480px;
+        height: auto;
+        .iphone{
+            width: 470px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            .iphone_2{
+                width: 470px;
+                height: auto;
+                .iphon{
+                    width: 470px;
+                    height: 450px;
+                    .img_1{
+                        width: 400px;
+                        margin-left: -99px;
+                    }
+
+                }
+                .iphon_1{
+                    display: none;
+                }
+                .iphon_2{
+                    width: 470px;
+                    height: auto;
+
+                    h3{
+                        font-size: 13px;
+                    }
+                    .box{
+                        width: 350px;
+                        height: auto;
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        gap: 10px;
+                        .box_1{
+                            width: 160px;;
+
+                        }
+                    }
+
+                    .iphon_4{
+                        width: 480px;
+                        height: auto;
+                        .box_5{
+                            width: 470px;
+                            height: auto;
+                            .box_3{
+                                width: 350px;
+                                height: auto;
+                            }
+                            .liner{
+                                width: 360px;
+                                height: auto;
+                                position: relative;
+                                .liner_1{
+                                    width: 470px;
+                                    height: 50px;
+                                    .liner_2{
+                                        width: 50px;
+                                    }
+                                    .liner_3{
+                                        width: 150px;
+                                    }
+                                    .liner_4{
+                                        width: 100px;
+                                    }
+                                    .liner_5{
+                                        position: absolute;
+                                        left: 120px;
+                                        top: 35px;
+                                    }
+                                    .p_3{
+                                        position: absolute;
+                                        left: 100px;
+                                        top: 0;
+                                    }
+                                }
+                            }
+
+                        }
+
+                    }
+                    .iphon_6{
+                        width: 360px;
+                        height: auto;
+                    }
+
+                }
+
+            }
+
+            .iphone_1{
+                width: 480px;
+                height: auto;
+                .ipho{
+                    width: 470px;
+                    height: auto;
+                    .green{
+                        width: 330px;
+                        height: auto;
+                        .gr{
+                            font-size: 15px;
+                        }
+                        .gre{
+                            width: 150px;
+                            .img_4{
+                                display: none;
+                            }
+                            .img_2{
+                                display: block;
+                            }
+                        }
+                    }
+                    .liner{
+                        width: 480px;
+                        height: auto;
+                        .boxs{
+                            width: 400px;
+                            height: auto;
+                            .img_6{
+                                width: 350px;
+                            }
+    
+                        }
+                    }
+                    .cam{
+                        width: 300px;
+                        height: auto;
+                        .demm{
+                            width: 350px;
+                        }
+                        .sena{
+                            width: 380px;
+                        }
+                        .line{
+                            width: 330px;
+                            position: relative;
+                            .line_3{
+                                position: absolute;
+                                left: 162px;
+                            }
+                            .line_4{
+                                position: absolute;
+                                left: 162px;
+                            }
+                        }
+                    }
+                    .istori{
+                        width: 400px;
+                        height: auto;
+                        img{
+                            width: 350px;
+                        }
+                        .oy{
+                            width: 350px;
+                            .p_8{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    .stat{
+                        width: 350px;
+                        height: auto;
+                        .sat{
+                            width: 150px;
+                            height: auto;
+                            .sata{
+                                width: 150px;
+                                height: auto;
+                                h1{
+                                    font-size: 20px;
+                                }
+                                img{
+                                    width: 70px;
+                                    height: auto;
+                                }
+                            }
+                            .img_7{
+                                width: 150px;
+                            }
+                            .sat_1{
+                                width: 150px;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+        .tarif{
+            width: 480px;
+            height: auto;
+            .bell_2{
+                width: 470px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                .bell{
+                    width: 340px;
+                    height: auto;
+                }  
+            }
+        }
+    }
+
+
+
+
+
+
+
+    .futor{
+        width: 480px;
+        height: 850px;
+        .futor_one{
+            width: 470px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+        }
+        .p_3{
+            width: 470px;
+            position: absolute;
+            left: 5px;
+            font-size: 15px;
+            color: rgba(126, 135, 148, 1);
+        }
+
+    }
+
+    #boll:checked ~ header .block{
+        transform: translateX(10px);
+    }
+
+    .galvni{
+        width: 360px;
+        height: auto;
+       display: block;
+       display: flex;
+       justify-content: space-around;
+       z-index: 999999px;
+       background: #fff;
+       position: fixed;
+       bottom: 0 ;
+       .glav{
+           width: 60px;
+           img{
+              margin-left: 15px;
+           }
+           p{
+              font-size: 13px
+           }
+
+       }
+       label{
+           img{
+              margin-left: 15px;
+           }
+       }
+    }
+}

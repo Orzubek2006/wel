@@ -1,0 +1,760 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tab_one:checked ~ header .block {
+  transform: translateY(20px);
+  transition: 0.5s ease-in-out;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+}
+header .logo {
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+header .logo p {
+  margin-left: -50px;
+  width: 180px;
+}
+header .logo button {
+  width: 170px;
+  height: 50px;
+  color: #fff;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+}
+header .logo input {
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+header .logo label {
+  width: 180px;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+}
+header .logo .icon_one {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .logo .icon_one .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(242, 245, 249);
+}
+header .block {
+  width: 1400px;
+  height: 600px;
+  margin: 0 auto;
+  transform: translateY(-820px);
+  background: #fff;
+  z-index: 9999;
+  position: relative;
+  animation: 0.5s ease-in-out;
+}
+header .block .boxs {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+header .block .boxs .box_one {
+  width: 300px;
+  height: auto;
+}
+header .block .boxs .box_one .box_on {
+  padding: 10px;
+  width: 300px;
+  height: 380px;
+  background: rgb(236, 238, 239);
+  border-radius: 10px;
+}
+header .block .boxs .box_one p {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+header .block .boxs .box_two {
+  width: 200px;
+  height: auto;
+}
+header .block .boxs .box_two .box_tw {
+  padding: 10px;
+  width: 200px;
+  height: 460px;
+  background: rgb(236, 238, 239);
+  border-radius: 10px;
+}
+header .block .boxs .box_two p {
+  padding: 5px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+header .block .boxs .box_three .box_thre {
+  padding: 10px;
+  width: 200px;
+  height: 480px;
+  background: rgb(236, 238, 239);
+  border-radius: 10px;
+}
+header .block .boxs .box_three p {
+  padding: 5px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+header .block .boxs .box_three .p_one {
+  display: flex;
+  color: red;
+  text-align: center;
+}
+header .block .boxs .box_four img {
+  width: 300px;
+  height: auto;
+}
+
+.contayner {
+  width: 100%;
+  height: auto;
+}
+.contayner .black {
+  width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contayner .black .blok {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contayner .black .blok img {
+  width: 15px;
+}
+.contayner .black .blok p {
+  padding: 10px;
+}
+.contayner .black .blok .k {
+  color: red;
+}
+.contayner .box_3 {
+  width: 1400px;
+  height: 360px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.contayner .box_3 .lebe {
+  display: none;
+}
+.contayner .box_3 #one_1 {
+  display: block;
+}
+.contayner .box_3 .one_2 {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.202);
+  position: absolute;
+  bottom: -40px;
+  left: 10px;
+}
+.contayner .box_3 .one_2 img {
+  transform: scale(360deg);
+}
+.contayner .box_3 .one_3 {
+  width: 200px;
+  height: 100px;
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 330px;
+  left: 10px;
+}
+.contayner .box_3 .one_3 p {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  z-index: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.202);
+}
+.contayner .box_3 .one_3 p:hover {
+  color: red;
+  background: rgba(255, 0, 0, 0.156);
+}
+.contayner .box_3 .input input[type=checkbox] {
+  display: none;
+}
+.contayner .box_3 #one_1:checked ~ .one_3 {
+  transition: 0.6s ease-in;
+  display: block;
+}
+.contayner .box_3 .box {
+  width: 700px;
+  height: auto;
+  position: relative;
+}
+.contayner .box_3 .box .bc {
+  color: red;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.contayner .box_3 .box .box_2 {
+  width: 680px;
+  height: auto;
+  display: flex;
+}
+.contayner .box_3 .box .block_1 {
+  width: 200px;
+  height: 250px;
+}
+.contayner .box_3 .box .block_1 h3 {
+  color: rgb(38, 49, 65);
+}
+.contayner .box_3 .box .block_1 .ot_1 {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contayner .box_3 .box .block_1 .ot_1 .ot {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgb(242, 245, 249);
+}
+.contayner .box_3 .box .block_1 .p_1 {
+  width: 180px;
+  height: auto;
+  display: flex;
+  padding: 5px;
+}
+.contayner .box_3 .box .block_1 .p_1 p {
+  padding: 5px;
+}
+.contayner .box_3 .box .block_1 .ec {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.contayner .iphone {
+  width: 1400px;
+  height: 350px;
+  display: flex;
+  margin: 0 auto;
+}
+.contayner .iphone .img_1 {
+  width: 220px;
+  height: 170px;
+  margin-top: 90px;
+}
+.contayner .iphone .iphone_1 {
+  width: 840px;
+  height: 290px;
+}
+.contayner .iphone .iphone_1 .iphone_2 {
+  width: 840px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.contayner .iphone .iphone_1 .iphone_2 .iphon {
+  width: auto;
+  height: 40px;
+  display: flex;
+  border-radius: 5px;
+  background: rgb(242, 245, 249);
+}
+.contayner .iphone .iphone_1 .iphone_2 .iphon p {
+  padding: 5px;
+}
+.contayner .iphone .iphone_1 .iphone_2 .iphon .p_4 {
+  color: rgb(48, 209, 112);
+}
+.contayner .iphone .iphone_1 .iphone_2 .iphon_1 {
+  width: auto;
+  height: 40px;
+  display: flex;
+}
+.contayner .iphone .iphone_1 .iphone_3 {
+  width: 840px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.contayner .iphone .iphone_1 .iphone_3 .iphon_3 {
+  width: 150px;
+  height: 40px;
+  display: flex;
+}
+.contayner .iphone .iphone_1 .iphone_3 .p_2 {
+  width: 60px;
+  height: 30px;
+  color: rgb(48, 209, 112);
+}
+.contayner .iphone .iphone_1 .iphone_4 {
+  width: 840px;
+  height: 170px;
+  display: flex;
+  gap: 30px;
+}
+.contayner .iphone .iphone_1 .iphone_4 .iphon_4 {
+  width: 400px;
+  height: 170px;
+}
+.contayner .iphone .iphone_1 .iphone_4 .iphon_4 .p_3 {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.contayner .iphone .iphone_5 {
+  width: 300px;
+  height: 300px;
+}
+.contayner .iphone .iphone_5 .box {
+  width: 290px;
+  height: 40px;
+}
+.contayner .iphone .iphone_5 .box .p_5 {
+  color: rgb(126, 135, 148);
+}
+.contayner .iphone .iphone_5 .but {
+  width: 290px;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 8px;
+  background: red;
+}
+.contayner .iphone .iphone_5 .but a {
+  text-decoration: none;
+  color: #fff;
+}
+.contayner .nazat {
+  width: 1400px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contayner .nazat .p_7 {
+  color: rgb(126, 135, 148);
+}
+.contayner .nazat .nazat_1 {
+  width: 400px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 0;
+  left: 550px;
+}
+.contayner .nazat .nazat_1 .na {
+  color: red;
+}
+.contayner .nazat .nazat_1 .p_6 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contayner .nazat .nazat_1 .p_6:hover {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: red;
+  color: #fff;
+}
+.contayner .obzori {
+  width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+.contayner .obzori .k {
+  color: rgb(255, 77, 77);
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.contayner .obzori .obzor {
+  width: 1370px;
+  height: 370px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.contayner .obzori .obzor .obzor_one {
+  width: 270px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgb(246, 247, 250);
+}
+.contayner .obzori .obzor .obzor_one img {
+  width: 270px;
+}
+.contayner .obzori .obzor .obzor_one p {
+  color: rgb(126, 135, 148);
+}
+.contayner .obzori .obzor .obzor_one a {
+  text-decoration: none;
+  color: rgb(255, 77, 77);
+}
+
+.futor {
+  width: 100%;
+  height: 300px;
+  background: rgb(246, 247, 250);
+}
+.futor .p_3 {
+  position: absolute;
+  left: 250px;
+}
+.futor .futor_one {
+  width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.futor .futor_one .p_two {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+}
+.futor .futor_one .p_two .p_2 {
+  color: rgb(126, 135, 148);
+  padding: 10px;
+}
+.futor .futor_one .p_two p {
+  padding: 10px;
+}
+.futor .futor_one .p_two .img_img {
+  padding: 10px;
+}
+
+.galvni {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    width: 1100px;
+  }
+  header .logo {
+    width: 1050px;
+  }
+  header .logo .log {
+    width: 120px;
+  }
+  header .logo p {
+    width: 150px;
+  }
+  header .logo label {
+    width: 150px;
+    height: 40px;
+  }
+  header .logo input {
+    width: 200px;
+  }
+  header .block {
+    width: 1050px;
+    height: auto;
+  }
+  .contayner {
+    width: 1100px;
+    height: auto;
+  }
+  .contayner .black {
+    width: 1100px;
+    height: auto;
+  }
+  .contayner .box_3 {
+    width: 1100px;
+    height: 360px;
+    position: relative;
+  }
+  .contayner .box_3 .box {
+    width: 540px;
+    height: auto;
+  }
+  .contayner .box_3 .one_2 {
+    position: absolute;
+    top: 290px;
+  }
+  .contayner .iphone {
+    width: 1100px;
+    height: auto;
+  }
+  .contayner .iphone .img_1 {
+    width: 150px;
+  }
+  .contayner .iphone .iphone_1 {
+    width: 700px;
+    height: auto;
+  }
+  .contayner .iphone .iphone_1 .iphone_2 {
+    width: 630px;
+    height: auto;
+  }
+  .contayner .iphone .iphone_1 .iphone_3 {
+    width: 630px;
+    height: auto;
+  }
+  .contayner .iphone .iphone_1 .iphone_3 h1 {
+    font-size: 26px;
+  }
+  .contayner .iphone .iphone_1 .iphone_4 {
+    width: 700px;
+    height: auto;
+  }
+  .contayner .iphone .iphone_1 .iphone_4 .iphon_4 {
+    width: 335px;
+    height: auto;
+  }
+  .contayner .iphone .iphone_5 {
+    width: 200px;
+    height: auto;
+    margin-left: -60px;
+  }
+  .contayner .obzori {
+    width: 1070px;
+    height: auto;
+  }
+  .contayner .obzori .obzor {
+    width: 1050px;
+    height: auto;
+  }
+  .futor {
+    width: 1100px;
+    height: auto;
+    position: relative;
+  }
+  .futor .futor_one {
+    width: 1050px;
+    height: auto;
+  }
+  .futor .p_3 {
+    position: absolute;
+    left: 20px;
+  }
+}
+@media screen and (max-width: 478px) {
+  header {
+    width: 480px;
+    height: 120px;
+  }
+  header .logo {
+    width: 350px;
+    height: 100px;
+    position: relative;
+    margin-left: 5px;
+  }
+  header .logo img {
+    width: 150px;
+  }
+  header .logo label {
+    display: none;
+  }
+  header .logo p {
+    font-size: 17px;
+  }
+  header .logo input {
+    position: absolute;
+    top: 80px;
+    width: 350px;
+  }
+  header .logo .icon_one {
+    display: none;
+  }
+  header .block {
+    width: 470px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    transform: translateX(480px);
+  }
+  header .block .boxs {
+    width: 470px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  header .block .boxs .box_four {
+    display: none;
+  }
+  #car:checked ~ .contayner .box_3 .one_3 {
+    display: block;
+    transform: translateX(20px);
+  }
+  #car_1:checked ~ .contayner .box {
+    display: block;
+    animation: 0.5s ease-in;
+  }
+  .contayner {
+    width: 480px;
+    height: auto;
+  }
+  .contayner .black {
+    width: 470px;
+    height: auto;
+  }
+  .contayner .black .blok {
+    display: none;
+  }
+  .contayner .box_3 {
+    width: 470px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contayner .box_3 .box_2 {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    z-index: 9999;
+    animation: 0, 4s ease-in;
+  }
+  .contayner .box_3 .lebe {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .contayner .box_3 .lebe label {
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(126, 135, 148);
+    border-radius: 5px;
+  }
+  .contayner .box_3 .lebe .p_8 {
+    color: red;
+  }
+  .contayner .box_3 .box {
+    display: none;
+    background: #fff;
+  }
+  .contayner .box_3 .one_3 {
+    position: absolute;
+    top: 60px;
+    left: -20px;
+  }
+  .contayner label {
+    display: none;
+  }
+  .contayner .one_3 {
+    transform: translateX(350px);
+    position: absolute;
+    top: 0;
+  }
+  .contayner .iphone {
+    width: 480px;
+    height: auto;
+  }
+  .futor {
+    width: 480px;
+    height: 800px;
+  }
+  .futor .futor_one {
+    width: 470px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .futor .p_3 {
+    width: 470px;
+    position: absolute;
+    left: 5px;
+    font-size: 15px;
+    color: rgb(126, 135, 148);
+  }
+  #boll:checked ~ header .block {
+    transform: translateX(10px);
+  }
+  .galvni {
+    width: 360px;
+    height: auto;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    z-index: 8000px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+  }
+  .galvni .glav {
+    width: 60px;
+  }
+  .galvni .glav img {
+    margin-left: 15px;
+  }
+  .galvni .glav p {
+    font-size: 13px;
+  }
+  .galvni label img {
+    margin-left: 15px;
+  }
+}/*# sourceMappingURL=smart.css.map */
